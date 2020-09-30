@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:python-cx/panda-ui.git",
   "author": "chen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.12"
+  }
 }
