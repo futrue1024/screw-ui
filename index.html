@@ -6,20 +6,43 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>PandaUI</title>
+  <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      :root {
+          --font-size: 14px;
+          --button-height: 32px;
+          --border-color: #999;
+          --color: #41B884;
+          --border-color-hover: #41B884;
+          --border-radius: 4px;
+          --button-background: white;
+          --button-active-background: #999;
+      }
+
+      body {
+          padding: 20px;
+      }
+      .rim:hover {
+           border-color: var(--border-color-hover);
+           color: var(--color);
+       }
+  </style>
+  <style>
+
+  </style>
 </head>
 <body>
-<div id="app">{{msg}}</div>
-
-<script src="./node_modules/vue/dist/vue.min.js"></script>
-<script>
-  new Vue({
-    el:'#app',
-    data(){
-      return{
-        msg:'hello'
-      }
-    }
-  })
-</script>
+<div id="app">
+  <p-button class="rim">按钮</p-button>
+  <p-button class="rim" icon='setting' icon-position="left">按钮</p-button>
+  <p-button class="rim" icon='setting' icon-position="right">按钮</p-button>
+</div>
+<script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_2111267_pdxzk6r6vzq.js"></script>
 </body>
 </html>
