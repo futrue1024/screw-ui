@@ -1,6 +1,7 @@
 <template>
-  <button class="p-button" :class="{[`icon-${iconPosition}`]:true}">
-    <p-icon class="icon" v-if="icon" :name="icon"></p-icon>
+  <button class="p-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
+    <p-icon class="icon" v-if="icon && !loading" :name="icon"></p-icon>
+    <p-icon class="loading icon" v-if="loading" name="loading"></p-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -13,6 +14,10 @@ export default {
   name: 'Button',
   props: {
     icon: {},
+    loading: {
+      type: Boolean,
+      default: false,
+    },
     iconPosition: {
       type: String,
       default: 'left',
@@ -25,6 +30,8 @@ export default {
 </script>
 
 <style lang='scss'>
+
+
 .p-button {
   font-size: var(--font-size);
   height: var(--button-height);
@@ -60,7 +67,9 @@ export default {
     }
   }
 
-
+  > .loading {
+    animation: spin 1s infinite linear;
+  }
 
   &:active {
     background-color: var(--button-active-bg);
@@ -68,6 +77,14 @@ export default {
 
   &:focus {
     outline: none;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
   }
 }
 </style>
