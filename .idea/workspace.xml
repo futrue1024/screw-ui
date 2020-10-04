@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9e71aa-081c-4748-b63b-e1362fc9b926" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +80,7 @@
       <workItem from="1601434127359" duration="1247000" />
       <workItem from="1601436050238" duration="12563000" />
       <workItem from="1601520898636" duration="4690000" />
-      <workItem from="1601791244314" duration="5743000" />
+      <workItem from="1601791244314" duration="6420000" />
     </task>
     <task id="LOCAL-00001" summary=" 安装parcel">
       <created>1601439672152</created>
@@ -110,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601542342195</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="本地测试完成">
+      <created>1601800658748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601800658748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +133,8 @@
     <MESSAGE value=" 安装parcel" />
     <MESSAGE value="引入icon" />
     <MESSAGE value="新建button-group" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建button-group" />
+    <MESSAGE value="本地测试完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="本地测试完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1722" y="765" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601439693880">
@@ -144,11 +145,11 @@
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
     <state x="1718" y="714" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601440284804" />
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1601542342065">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1601800658572">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="1587" y="492" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601439672002" />
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601542342065" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601800658572" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1601797069751">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
