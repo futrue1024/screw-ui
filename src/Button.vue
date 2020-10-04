@@ -9,8 +9,13 @@
 </template>
 
 <script lang='js'>
-export default {
 
+import icon from './icon.vue'
+
+export default {
+components:{
+  'p-icon':icon
+},
   name: 'Button',
   props: {
     icon: {},

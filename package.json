@@ -5,10 +5,25 @@
   "repository": "git@github.com:python-cx/panda-ui.git",
   "author": "chen",
   "license": "MIT",
+  "scripts": {
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
+  },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "karma": "^5.2.3",
+    "karma-chai": "^0.1.0",
+    "karma-chai-spies": "^0.1.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^8.1.3",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.11",
+    "sinon": "^9.1.0",
+    "sinon-chai": "^3.5.0",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },
@@ -17,6 +32,6 @@
     "vue-hot-reload-api": "^2.3.4"
   },
   "alias": {
-    "vue" : "./node_modules/vue/dist/vue.common.js"
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }
