@@ -23,9 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9e71aa-081c-4748-b63b-e1362fc9b926" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Input.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2a/90d708e4c2faeb2b59c464936d3e75.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2a/90d708e4c2faeb2b59c464936d3e75.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/a8/cccd695f936b6d2ac5661d3c81c103.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/a8/cccd695f936b6d2ac5661d3c81c103.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,7 @@
       <workItem from="1601791244314" duration="9432000" />
       <workItem from="1601860491977" duration="2000" />
       <workItem from="1602813673185" duration="82000" />
-      <workItem from="1602826523656" duration="2023000" />
+      <workItem from="1602826523656" duration="7666000" />
     </task>
     <task id="LOCAL-00001" summary=" 安装parcel">
       <created>1601439672152</created>
@@ -186,9 +193,10 @@
       <screen x="1440" y="0" width="1080" height="1920" />
     </state>
     <state x="1520" y="499" key="SettingsEditor/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601436034955" />
-    <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup" timestamp="1601435887657">
-      <screen x="1440" y="0" width="1080" height="1920" />
+    <state x="1645" y="469" width="670" height="668" key="search.everywhere.popup" timestamp="1602842054484">
+      <screen x="1440" y="23" width="1080" height="1897" />
     </state>
     <state x="1645" y="451" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1080.1920@1440.0.1080.1920" timestamp="1601435887657" />
+    <state x="1645" y="469" width="670" height="668" key="search.everywhere.popup/0.23.1440.822/1440.23.1080.1897@1440.23.1080.1897" timestamp="1602842054484" />
   </component>
 </project>

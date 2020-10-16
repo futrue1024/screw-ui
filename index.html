@@ -40,19 +40,26 @@
 </head>
 <body>
 <div id="app">
-  <p-button class="rim" :loading="loading1" @click="loading1=!loading1">按钮</p-button>
-  <p-button class="rim" icon='setting' icon-position="left" :loading="loading2" @click="loading2=!loading2">按钮
-  </p-button>
-  <p-button class="rim" icon='setting' icon-position="right" :loading="loading3" @click="loading3 =!loading3">按钮
-  </p-button>
-  <p-button-group>
-    <p-button icon="left"  class="rim">上一页</p-button>
-    <p-button  class="rim">更多</p-button>
-    <p-button  class="rim" icon="right" icon-position="right">下一页</p-button>
-  </p-button-group>
+  <div style="margin-top: 20px">
+    <p-input value="张三" disabled></p-input>
+    <p-input value="李四"></p-input>
+    <p-input value="王" error="姓名不得少于两个字"></p-input>
+  </div>
+  <div style="margin-top: 20px">
+    <p-button class="rim" :loading="loading1" @click="loading1=!loading1">按钮</p-button>
+    <p-button class="rim" icon='setting' icon-position="left" :loading="loading2" @click="loading2=!loading2">按钮
+    </p-button>
+    <p-button class="rim" icon='setting' icon-position="right" :loading="loading3" @click="loading3 =!loading3">按钮
+    </p-button>
+    <p-button-group>
+      <p-button icon="left" class="rim">上一页</p-button>
+      <p-button class="rim">更多</p-button>
+      <p-button class="rim" icon="right" icon-position="right">下一页</p-button>
+    </p-button-group>
+  </div>
+
+
 </div>
-<div id="text"></div>
 <script src="./src/app.js"></script>
-<script src="//at.alicdn.com/t/font_2111267_s4d9kly4vbf.js"></script>
 </body>
 </html>

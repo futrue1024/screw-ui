@@ -83,6 +83,12 @@ components:{
   &:focus {
     outline: none;
   }
+  &:hover{
+      border-color: var(--border-color-hover);
+      color: var(--color);
+      z-index: 1;
+
+  }
 }
 @keyframes spin {
   0% {
