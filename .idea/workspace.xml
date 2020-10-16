@@ -24,9 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="de9e71aa-081c-4748-b63b-e1362fc9b926" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1601791244314" duration="9432000" />
       <workItem from="1601860491977" duration="2000" />
       <workItem from="1602813673185" duration="82000" />
-      <workItem from="1602826523656" duration="705000" />
+      <workItem from="1602826523656" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary=" 安装parcel">
       <created>1601439672152</created>
