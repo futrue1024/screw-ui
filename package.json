@@ -1,7 +1,7 @@
 {
-  "name": "panda-ui",
+  "name": "screwui-vue2",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:python-cx/panda-ui.git",
   "author": "chen",
   "license": "MIT",
@@ -28,6 +28,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "@vue/cli": "3.0.0",
     "src": "^1.1.2",
     "vue-hot-reload-api": "^2.3.4"
   },
